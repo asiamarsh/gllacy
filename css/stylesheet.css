@@ -1,0 +1,9 @@
+@font-face{
+    font-family:"roboto";
+    src: url(../fonts/roboto.woff) format("woff");
+    src: url(../fonts/roboto.woff2) format("woff2");
+    src: url(../fonts/robotobold.woff) format("woff");
+    src: url(../fonts/robotobold.woff2) format("woff2");
+    src: url(../fonts/robotomedium.woff) format("woff");
+    src: url(../fonts/robotomedium.woff2) format("woff2");
+}
