@@ -7,6 +7,7 @@
     <title>Gllacy</title>
 </head>
 <body>
+  <div class="container">
     <header class="header">
       <h1 class="header-title visually-hidden">Gllacy</h1>
       <a class="header-logo" href="#"><img src="./images/logo.svg" alt="логотип глейси" ></a>
@@ -37,16 +38,19 @@
       </section>
       <section class="banners">
           <div class="banner banner-raspberries">
-              <!-- <img  class="banner-img" src="./images/raspberries.png" width="560" height="230" alt="фон малины"> -->
               <h3 class="banner-title">Малинка Даром!</h3>
               <p class="banner-text">При покупке 2кг любого фруктового мороженого добавим в ваш заказ банку малинового варенья бесплатно.</p>
-              <button class="button button-raspberries" type="button">Хочу варенье!</button>
+              <div class="banner-button-containet">
+                <button class="button button-raspberries" type="button">Хочу варенье!</button>
+              </div>
           </div>
           <div class="banner banner-chocolate">
             <!-- <img class="banner-img" src="./images/chocolate.png" width="560" height="230" alt="фон шоколада"> -->
             <h3 class="banner-title">Шоколадки Даром!</h3>
             <p class="banner-text">При покупке 2кг пломбира добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-            <button class="button button-chocolate" type="button">Хочу шоколадки!</button>
+            <div class="banner-button-containet">
+              <button class="button button-chocolate" type="button">Хочу шоколадки!</button>
+            </div>
           </div>
       </section>
       <section class="hit">
@@ -93,28 +97,32 @@
       </section>
       <section class="seo">
           <h3 class="seo-title">Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес</h3>
-          <div>
-              <img src="./images/ice-cream.svg" alt="мороженка">
+          <div class="seo-container">
+            <div class="seo-item">
+              <img class="seo-img" src="./images/ice-cream.svg" alt="мороженка">
               <p class="seo-text">Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
-          </div>
-          <div>
-              <img src="./images/eco.svg" alt="лист">
-              <p class="seo-text">Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья</p>
-          </div>
-          <div>
-              <img src="./images/cow.svg" alt="корова">
+            </div>
+            <div class="seo-item">
+              <img class="seo-img" src="./images/cow.svg" alt="корова">
               <p class="seo-text">Закупка ингредиентов  производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
-          </div>
-          <div>
-              <img src="./images/thermometer.svg" alt="градусник">
+            </div>
+            <div class="seo-item">
+              <img class="seo-img" src="./images/eco.svg" alt="лист">
+              <p class="seo-text">Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья</p>
+            </div>
+            <div class="seo-item">
+              <img class="seo-img" src="./images/thermometer.svg" alt="градусник">
               <p class="seo-text">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус</p>
+            </div>
           </div>
       </section>
-      <article class="news">
+      <section class="container-news-sabs">
+        <article class="news">
           <h4 class="news-title visually-hidden">Новое в нашем блоге</h4>
-          <img src="./images/strawberry.png" width="560" height="220" alt="клубничка">
            <p class="news-text">Новое в нашем блоге</p>
-           <a href="#">10 способов сервировки фруктовых щербетов к столу</a>
+           <div class="news-link">
+             <a href="#">10 способов сервировки фруктовых щербетов к столу</a>
+           </div>
       </article>
       <section class="subs">
           <h4 class="subs-title visually-hidden">Рассылка</h4>
@@ -123,8 +131,9 @@
             <label>
                 <input type="text" placeholder="email@example.com">
             </label>
-            <button class="button" type="submit">Отправить</button>
+            <button class="button button-subs" type="submit">Отправить</button>
           </form>
+      </section>
       </section>
       <section class="maps">
           <h4 class="visually-hidden">карта</h4>
@@ -167,5 +176,6 @@
           <p>Сделано в HTML Academy c 2019</p>
         </div>
     </footer>
+  </div>
 </body>
 </html>
